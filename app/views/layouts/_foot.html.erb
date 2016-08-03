@@ -1,3 +1,25 @@
+
+<% if current_user %>
+
+<footer class="footer-distributed"> 
+
+  <div class="footer-right">
+<p> </p> 
+<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-github"></i></a>
+</div>
+<div class="footer-left">
+<p class="footer-links">
+·
+<a class="page-scroll" href="#portfolio">Contact Us</a> ·
+<a class="page-scroll" href="#services">About Us</a>
+·
+</p>
+<p></p>
+</div>
+</footer>
+
+<% else %>
+
 <footer class="footer-distributed">
 <div class="footer-left"> <h3>Question<span>mates</span></h3> <p class="footer-links">
 <a href="#">Home</a> ·
@@ -18,3 +40,8 @@
 <input type="text" name="email" placeholder="Email" /> <textarea name="message" placeholder="Message"></textarea> <button>Send</button>
 </form> </div>
 </footer>
+
+<% end %>
+
+
+
